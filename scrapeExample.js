@@ -41,7 +41,7 @@ function scrapeExample() {
         console.log("Link: " + value);
     });
 
-    pause(4, quitDriver);
+    pause(10, quitDriver);
 }
 
 function pause(time, funcName){         // wait before doing function
