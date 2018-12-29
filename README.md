@@ -10,6 +10,7 @@ This course is built in NODEJS that is light weight, efficient, and scale-able  
 We are using Selenium which is automation testing tool that provides various elements and methods to interact with HTML DOM in order to parse the website.
 
 Das wirst du lernen
+
 	Understands the basics of NODE JS
 	Understand the installation and un-installation of node modules
 	Understand the fundamentals of Web Scrapping
@@ -21,7 +22,9 @@ Das wirst du lernen
 	Store the scrapped data in excel file CSV
 	Complete Project that will Scrape Google translate website
 	Complete Project that will Scrape Travel Insurance website
+
 Bestehen für den Kurs bestimmte Anforderungen oder Voraussetzungen?
+
 Basics of HTML
 Basic Programming Concepts Such as Variable, If Condition, Loop Structure.
 Basics of JavaScript
