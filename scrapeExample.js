@@ -8,9 +8,13 @@ driver.get('file://' + __dirname + '/Example.html');
 
 pause(2, scrapeExample);
 
+/*
+* Scraping the Example.html Page for demonstartion of various selenium elements + methods
+*/
+
 function scrapeExample() {
 
-    //statement
+    console.log('Scraping the page...')
 
 
 }
