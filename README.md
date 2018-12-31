@@ -30,3 +30,9 @@ Basic Programming Concepts Such as Variable, If Condition, Loop Structure.
 Basics of JavaScript
 Node JS version: 10.13.0 (we will install it inside course)
 Chrome Driver version: 2.43 (we will install it inside course)
+
+
+Contents
+scrapeExample.js + Example.html --> Examples for Scraping.
+
+exception.js + exception.html --> Examples for errorhandling
