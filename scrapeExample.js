@@ -38,7 +38,11 @@ function scrapeExample() {
     // 6. Find the link by a part of its text and log it to console
     driver.findElement(By.partialLinkText('Jazeb'))
     .getAttribute('href').then(function(value){
-        console.log("Link: " + value);
+        console.log("Link 1 (partial Linktext): " + value);
+    });
+    driver.findElement(By.linkText('Jazeb Akram'))
+    .getAttribute('href').then(function(value){
+        console.log("Link 2 (Linktext): " + value);
     });
 
     pause(10, quitDriver);
