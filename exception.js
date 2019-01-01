@@ -4,7 +4,7 @@ var driver = new webdriver.Builder()
     .forBrowser('chrome')
     .build();
 
-driver.get('file://' + __dirname + '/exeption.html');
+driver.get('file://' + __dirname + '/exception.html');
 
 pause(2, scrapeExample);
 
@@ -17,24 +17,25 @@ function scrapeExample() {
     console.log('Scraping the page...');
     // 1. Find Textfield Element by its id and fill it 
     // Exception --> field is hidden
+    // 
     driver.findElement(By.id('name')).sendKeys("Chris Scrapegoat").then(null, function(exeption){
-        console.log(exeption.name);
+        console.log("Element not visible --> " + exeption.name);
     });
-    console.log('namefield filled...');
+
     // 2. Find the "female"-Radiobutton by its xpath and click on the field
     // Execption xpath wrong too much [
     driver.findElement(By.xpath('//input[[@value="female"]')).click().then(null, function(exeption){
-        console.log(exeption.name);
+        console.log("Wrong xpath --> " + exeption.name);
     });
-    console.log('gender set to female...');
+   
     // 3. Find Checkbox by its name click on it
     // Exeception vehicle 3 doesnt exist
     driver.findElement(By.name('vehicle3')).click().then(function(success){
         console.log('Click successfull');
     }, function(exeption){
-        console.log(exeption.name);
+        console.log("Vehicle 3 doesnt exist --> " + exeption.name);
     });
-    console.log('Honda checked...');
+    
     
     pause(10, quitDriver);
 }
@@ -44,7 +45,7 @@ function pause(time, funcName){         // wait before doing function
     /*
     * Example would be
     * Pause(2, scrapeExample);
-    * ==> calls the metod after 2 seconds of delay
+    * ==> calls the method after 2 seconds of delay
     */
 
 }
