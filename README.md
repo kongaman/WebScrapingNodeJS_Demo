@@ -41,4 +41,4 @@ exception.js + exception.html --> Examples for errorhandling
 
 project01_screenshot.js --> Example for capturing a screenshot of any website
 
-projectß2_scrapeTravelInsurance.js + folder travelinsurance --> Real World scraping example
+./travelinsurance/runner.js + folder travelinsurance --> Real World scraping example
