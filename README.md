@@ -33,6 +33,8 @@ Chrome Driver version: 2.43 (we will install it inside course)
 
 
 Contents
+
+
 scrapeExample.js + Example.html --> Examples for Scraping.
 
 exception.js + exception.html --> Examples for errorhandling
